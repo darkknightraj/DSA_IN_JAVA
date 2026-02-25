@@ -23,7 +23,8 @@ public class TwoSumBrute {
         for(int i = 0;i< arr.length ;i++){
             int complement = target-arr[i];
             if(hmap.containsKey(complement)){
-                return  new int[] {arr[i],complement};
+               // return  new int[] {arr[i],complement};
+                return new int[] {hmap.get(complement),i};//to return index
             }
             hmap.put(arr[i],i);
         }
