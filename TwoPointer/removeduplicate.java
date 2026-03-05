@@ -9,7 +9,6 @@ public class removeduplicate{
       //  int fianl_res = arr.length-res; to count the duplicate element 
       // if only want unique than return slow + 1 ; 
         System.out.println((Arrays.toString(res)));
-
     }
     public static int duplicate (int [] arr){
         int slow = 0;
